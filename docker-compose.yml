@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  mysql-development:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: SPABD
+      MYSQL_DATABASE: SPABD_database
+    ports:
+      - "3310:3310"
